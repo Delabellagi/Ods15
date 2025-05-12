@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-image:url(Floresta.jpg);
+    background-size: cover;        /* Faz a imagem cobrir toda a tela */
+    background-position: center;   /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Impede que a imagem se repita */;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 800px;
+
+    border: 2px solid rgb(7, 69, 3);
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 0 2px 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.question {
+    font-family: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.answers-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.next-question {
+    margin-top: 32px;
+}
+
+.button {
+    background-color: rgb(188, 228, 168);
+    color: rgb(26, 24, 24);
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    height: 65px;
+    padding: 0 32px;
+
+    transition: filter 0.2s;
+}
+
+.button:hover {
+filter: brightness(0.8);
+}
+
+.answer:disabled {
+    cursor: not-allowed;
+}
+
+.final-message {
+ font-size: 20px;
+ text-align: center;
+}
+
+.final-message span {
+    display: block;
+    margin-top: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
