@@ -22,12 +22,12 @@ body {
 
 .container {
     background-color: whitesmoke;
-    width: 90%;
+    width: 95%;
     max-width: 800px;
 
     border: 2px solid rgb(7, 69, 3);
-    border-radius: 6px;
-    padding: 16px;
+    border-radius: 2px;
+    padding: 10px;
     box-shadow: 0 0 2px 2px;
 
     display: flex;
@@ -42,12 +42,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 30px;
 }
 
 .question {
-    font-family: 35px;
-    font-weight: bold;
+    font: family 15px;
+    font: weight 10px;
     text-align: center;
 }
 
@@ -55,22 +55,22 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 8px;
 }
 
 .next-question {
-    margin-top: 32px;
+    margin-top: 20px;
 }
 
 .button {
     background-color: rgb(188, 228, 168);
     color: rgb(26, 24, 24);
-    font-size: 16px;
+    font-size: 8px;
     font-weight: bold;
     border: 0;
-    border-radius: 6px;
-    height: 65px;
-    padding: 0 32px;
+    border-radius: 2px;
+    height: 40px;
+    padding: 0 18px;
 
     transition: filter 0.2s;
 }
@@ -84,7 +84,7 @@ filter: brightness(0.8);
 }
 
 .final-message {
- font-size: 20px;
+ font-size: 10px;
  text-align: center;
 }
 
