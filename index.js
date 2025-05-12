@@ -127,7 +127,7 @@ function Finishgame(){
         answers: [
             { text: "Reduzir a pobreza extrema", correct: false },
             { text: "Garantir saúde e bem-estar", correct: false },
-            { text: "Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres", correct: true },
+            { text: "Promover o uso sustentável dos ecossistemas terrestres", correct: true },
             { text: "Garantir Promover o crescimento econômico contínuo", correct: false }
         ]
     },
