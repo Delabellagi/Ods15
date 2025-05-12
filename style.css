@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
 }
 
 .question {
@@ -69,7 +69,7 @@ body {
     font-weight: bold;
     border: 0;
     border-radius: 2px;
-    height: 40px;
+    height: 60px;
     padding: 0 18px;
 
     transition: filter 0.2s;
