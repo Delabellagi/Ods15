@@ -55,7 +55,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
+    gap: 20px;
 }
 
 .next-question {
@@ -65,7 +65,7 @@ body {
 .button {
     background-color: rgb(188, 228, 168);
     color: rgb(26, 24, 24);
-    font-size: 8px;
+    font-size: 12px;
     font-weight: bold;
     border: 0;
     border-radius: 2px;
@@ -84,13 +84,13 @@ filter: brightness(0.8);
 }
 
 .final-message {
- font-size: 10px;
+ font-size: 15px;
  text-align: center;
 }
 
 .final-message span {
     display: block;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .hide {
